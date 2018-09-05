@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="crypt-data-source" />
+        <module name="crypt-data-source-impl" />
         <module name="cryptography" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="crypt-data-source" target="1.8" />
+      <module name="crypt-data-source-impl" target="1.8" />
       <module name="cryptography" target="1.5" />
     </bytecodeTargetLevel>
   </component>

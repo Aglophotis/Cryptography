@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/crypt-api/crypt-data-source.iml" filepath="$PROJECT_DIR$/crypt-api/crypt-data-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crypt-impl/crypt-data-source-impl.iml" filepath="$PROJECT_DIR$/crypt-impl/crypt-data-source-impl.iml" />
       <module fileurl="file://$PROJECT_DIR$/cryptography.iml" filepath="$PROJECT_DIR$/cryptography.iml" />
     </modules>
   </component>
