@@ -1,10 +1,10 @@
 package ru.aglophotis.data;
 
 import java.io.File;
+import java.nio.charset.Charset;
 
 public interface XorCrypt {
-    StringBuilder strEncrypt(StringBuilder value, StringBuilder key);
-    File fileEncrypt(File value, StringBuilder key);
-    StringBuilder strDecrypt(StringBuilder value, StringBuilder key);
-    File fileDecrypt(File value, StringBuilder key);
+    StringBuilder strCrypt(StringBuilder value, StringBuilder key) throws Exception;
+    StringBuilder strCrypt(StringBuilder value, StringBuilder key, Charset chs) throws Exception;
+    File fileCrypt(File value, StringBuilder key);
 }

@@ -35,6 +35,12 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>RELEASE</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
 			<groupId>ru.aglophotis.data</groupId>
 			<artifactId>crypt-data-source</artifactId>
 			<version>0.1</version>

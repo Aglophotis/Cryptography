@@ -7,6 +7,18 @@
     <groupId>ru.aglophotis</groupId>
     <artifactId>cryptography</artifactId>
     <version>0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <modules>
+        <module>crypt-impl</module>
+        <module>crypt-api</module>
+    </modules>
+
 
 
 </project>
